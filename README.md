@@ -1,8 +1,8 @@
 # Code Instruction for GoMARL
 
-This instruction hosts the PyTorch implementation of "**Automatic Grouping for Efficient Cooperative Multi-Agent Reinforcement Learning**". The implementation is based on the frameworks [PyMARL](https://github.com/oxwhirl/pymarl) and [PyMARL2](https://github.com/hijkzzz/pymarl2) with environments [SMAC](https://github.com/oxwhirl/smac) and [Gfootball](https://github.com/google-research/football). 
+This instruction hosts the PyTorch implementation of GoMARL accompanying the paper "**Automatic Grouping for Efficient Cooperative Multi-Agent Reinforcement Learning**" (NeurIPS 2023). GoMARL is a domain-agnostic method that learns automatic grouping for efficient cooperation by promoting intra- and inter-group coordination.
 
-All of our SMAC experiments are based on the latest PyMARL2 utilizing SC2.4.6.10.
+The implementation is based on the frameworks [PyMARL](https://github.com/oxwhirl/pymarl) and [PyMARL2](https://github.com/hijkzzz/pymarl2) with environments [SMAC](https://github.com/oxwhirl/smac) and [Gfootball](https://github.com/google-research/football). All of our SMAC experiments are based on the latest PyMARL2 utilizing SC2.4.6.10. The underlying dynamics are sufficiently different, so you cannot compare runs across various versions.
 
 
 ## Setup
